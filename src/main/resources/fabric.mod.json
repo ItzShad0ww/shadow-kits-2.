@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowkits",
+  "version": "1.0.0",
+  "name": "Shadow Kits",
+  "description": "Save and load inventory presets (kits) with /kit commands.",
+  "authors": ["Shadow"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.shadow.kits.ShadowKitsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
